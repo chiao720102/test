@@ -36,8 +36,6 @@
 - 未加入訪客個資蒐集或瀏覽追蹤。
 - 開發與登入請使用 HTTP localhost 或 HTTPS 靜態主機；不建議以 file:// 使用雲端後台。
 
-## 圖片與套件來源
-
 ## 驗證
 
 `tests/` 包含本機 Postgres 相容的 RLS 測試（PGlite）及模擬後端的介面測試（jsdom）。在 `tests` 資料夾執行 `pnpm install`、`pnpm test`。測試不連接真實 Supabase，也不修改真實資料；正式專案初始化後仍需以實際管理員帳號驗證登入與寫入。
